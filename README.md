@@ -14,7 +14,7 @@
   
 *  [Reposta Questão 7](https://github.com/vladimirmaciel/ShipayAvaliacao/blob/master/Respostas/SetimaQuestao.md)
   
-*  [Reposta Questão 8](https://github.com/vladimirmaciel/ShipayAvaliacao/blob/master/Respostas/OitavaQuestao.md)
+*  [Reposta Questão 8](https://github.com/vladimirmaciel/ShipayAvaliacao/blob/master/Respostas/OItavaQuestao.md)
 
 
 
