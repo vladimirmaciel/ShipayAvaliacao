@@ -23,12 +23,12 @@ LEFT OUTER JOIN "saf_claims" ON("saf_users_description"."claims_id"="saf_claims"
 
 ------------------------------------------------------------------------------------------------
 questão 2:
-    Saf.objects.all.values('description', 'saf__roles', 'saf__claims')
     from saf.models import *
-
+    Saf.objects.all.values('description', 'saf__roles', 'saf__claims')
+    
     resp_u = Users.objects.values(
         "name", "email", "role__description", "description__descricao")
-    print(resp_u.query)
+    print(resp_u.values())
 
     ------------------------------------------------------------------------------------------------
     3. - Utilizando a mesma estrutura do banco de dados fornecida anteriormente, e a linguagem que desejar, construa uma API REST que irá listar o papel de um usuário pelo “Id” (role_id).
